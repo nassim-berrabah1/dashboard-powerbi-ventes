@@ -12,11 +12,12 @@ Outil : Power BI Desktop
 
 # 📊 Aperçu du Dashboard
 Page 1 — Vue d'ensemble
-Afficher l'image
+<img width="1655" height="926" alt="image" src="https://github.com/user-attachments/assets/09c2f400-333b-4c63-bda2-5ad6cb54f8ac" />
 Page 2 — Performances par manager & ville
-Afficher l'image
+<img width="1652" height="928" alt="image" src="https://github.com/user-attachments/assets/08b29365-cc21-47af-a423-55139c063558" />
 Page 3 — Analyse par catégories & produits
-Afficher l'image
+<img width="1654" height="920" alt="image" src="https://github.com/user-attachments/assets/e5dc3ac7-623c-426f-9b39-eebfb59f99b0" />
+
 
 # 🗂️ Structure du rapport (3 pages)
 Page 1 — Vue d'ensemble géographique
@@ -44,11 +45,6 @@ Graphique en courbe : Évolution du chiffre d'affaires par année
 # ⚙️ Compétences Power BI mobilisées
 CompétenceDétailImportationFichier Excel multi-feuilles (3 tables)Nettoyage (Power Query)Promotion des en-têtes, suppression de lignes vides, typage des colonnesModélisationSchéma en étoile : table faits Orders reliée aux dimensions People et ReturnsVisuelsKPI cards, filled map, treemap, barres empilées, histogramme, courbe temporelleInteractivitéSlicers, cross-filtering, drill-down catégorie → sous-catégorieEsthétiqueThème cohérent, logo université, organisation logique en 3 pages
 
-# 🔄 Modèle de données
-Orders (faits)
-  ├── → People (dimension : managers par région)
-  └── → Returns (dimension : commandes retournées)
-Les relations ont été établies manuellement dans la vue Modèle de Power BI, avec vérification des cardinalités.
 
 # 🔍 Principaux résultats
 
