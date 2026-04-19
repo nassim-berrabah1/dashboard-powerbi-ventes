@@ -3,14 +3,14 @@
 Rapport multi-pages interactif analysant les performances commerciales par région, manager et catégorie de produit, à partir d'un dataset de ventes réelles.
 
 
-📌 Contexte
+# 📌 Contexte
 Projet réalisé en mars 2026 dans le cadre de la formation BUT Informatique — Sciences des Données (IUT Villetaneuse, Université Sorbonne Paris Nord).
 
 Source des données : Fichier Excel fourni (3 tables : Orders/Sales, Returns, People) — données réelles
 Outil : Power BI Desktop
 
 
-📊 Aperçu du Dashboard
+# 📊 Aperçu du Dashboard
 Page 1 — Vue d'ensemble
 Afficher l'image
 Page 2 — Performances par manager & ville
@@ -18,7 +18,7 @@ Afficher l'image
 Page 3 — Analyse par catégories & produits
 Afficher l'image
 
-🗂️ Structure du rapport (3 pages)
+# 🗂️ Structure du rapport (3 pages)
 Page 1 — Vue d'ensemble géographique
 
 KPI card : Chiffre d'affaires total
@@ -41,16 +41,16 @@ Carte KPI : Donnée numérique associée à la sélection (catégorie ou sous-ca
 Graphique en courbe : Évolution du chiffre d'affaires par année
 
 
-⚙️ Compétences Power BI mobilisées
+# ⚙️ Compétences Power BI mobilisées
 CompétenceDétailImportationFichier Excel multi-feuilles (3 tables)Nettoyage (Power Query)Promotion des en-têtes, suppression de lignes vides, typage des colonnesModélisationSchéma en étoile : table faits Orders reliée aux dimensions People et ReturnsVisuelsKPI cards, filled map, treemap, barres empilées, histogramme, courbe temporelleInteractivitéSlicers, cross-filtering, drill-down catégorie → sous-catégorieEsthétiqueThème cohérent, logo université, organisation logique en 3 pages
 
-🔄 Modèle de données
+# 🔄 Modèle de données
 Orders (faits)
   ├── → People (dimension : managers par région)
   └── → Returns (dimension : commandes retournées)
 Les relations ont été établies manuellement dans la vue Modèle de Power BI, avec vérification des cardinalités.
 
-🔍 Principaux résultats
+# 🔍 Principaux résultats
 
 Les managers les plus performants concentrent une part disproportionnée du profit, indépendamment du nombre de villes couvertes
 La visualisation par filled map permet d'identifier immédiatement les états générant le plus de CA
@@ -58,7 +58,7 @@ Le Treemap des sous-catégories révèle une concentration des ventes sur quelqu
 L'évolution temporelle du CA montre une tendance exploitable pour la planification commerciale
 
 
-📁 Contenu du repo
+# 📁 Contenu du repo
 📦 dashboard-ventes-powerbi
  ┣ 📂 screenshots/
  ┃ ┣ 📄 page1.png
@@ -67,10 +67,10 @@ L'évolution temporelle du CA montre une tendance exploitable pour la planificat
  ┣ 📄 DM2_BERRABAH_Nassim.pbix   ← Fichier Power BI
  ┗ 📄 README.md
 
-⚠️ Le fichier .pbix contient les données embarquées. Nécessite Power BI Desktop pour être ouvert.
+Le fichier .pbix contient les données embarquées. Nécessite Power BI Desktop pour être ouvert.
 
 
-👤 Auteur
+# 👤 Auteur
 Nassim Berrabah — BUT Informatique, Sciences des Données
 IUT de Villetaneuse, Université Sorbonne Paris Nord
 LinkedIn · GitHub
