@@ -56,12 +56,9 @@ L'évolution temporelle du CA montre une tendance exploitable pour la planificat
 
 # 📁 Contenu du repo
 📦 dashboard-ventes-powerbi
- ┣ 📂 screenshots/
- ┃ ┣ 📄 page1.png
- ┃ ┣ 📄 page2.png
- ┃ ┗ 📄 page3.png
- ┣ 📄 DM2_BERRABAH_Nassim.pbix   ← Fichier Power BI
- ┗ 📄 README.md
+ - 📄 DM2_BERRABAH_Nassim.pbix   ← Fichier Power BI
+ - 📄 rapport.pdf
+ - 📄 README.md
 
 Le fichier .pbix contient les données embarquées. Nécessite Power BI Desktop pour être ouvert.
 
