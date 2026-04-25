@@ -66,4 +66,3 @@ Le fichier .pbix contient les données embarquées. Nécessite Power BI Desktop 
 # 👤 Auteur
 Nassim Berrabah — BUT Informatique, Sciences des Données
 IUT de Villetaneuse, Université Sorbonne Paris Nord
-LinkedIn · GitHub
